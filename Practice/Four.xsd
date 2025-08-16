@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+	
+	<xsd:element name="employee">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element name="employee_id" type="xsd:int"/>
+				<xsd:element name="employee_name" type="xsd:string"/>
+				<xsd:element name="children" maxOccurs="1">
+					<xsd:complexType>
+						<xsd:sequence>
+							<xsd:element name="child" maxOccurs="2">
+							<xsd:complexType>
+								<xsd:sequence>
+									<xsd:element name="child_name" type="xsd:string"/>
+									<xsd:element name="child_gender" type="xsd:string"/>									
+								</xsd:sequence>
+							</xsd:complexType>
+							</xsd:element>
+						</xsd:sequence>
+					</xsd:complexType>
+				</xsd:element>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+</xsd:schema>

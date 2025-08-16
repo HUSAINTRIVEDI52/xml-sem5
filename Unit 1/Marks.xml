@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<!DOCTYPE Marks SYSTEM "Marks.dtd">
+<Student>
+	<Roll_No></Roll_No>
+	<Name></Name>
+	<Marks></Marks>
+	<Rank></Rank>
+</Student>

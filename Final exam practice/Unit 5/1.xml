@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<?xsl-stylesheet type="text/xsl" hf="4.xsl"?>
+		
+		<Student>
+			<Name>Husain</Name>	
+			<Personal_Info>
+				<Address>Ahmedabad</Address>
+				<Birthdate>2005-2-24</Birthdate>
+				<Gender>male</Gender>
+				<Mobile>7698379853</Mobile>
+			</Personal_Info>
+			<Result>A+</Result>
+		</Student>

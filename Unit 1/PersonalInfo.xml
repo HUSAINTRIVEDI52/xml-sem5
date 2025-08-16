@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<!DOCTYPE PersonalInfo SYSTEM "PersonalInfo.dtd">	
+	<PersonalInfo>	
+		<RollNo>d</RollNo>
+		<Name>e</Name>
+		<Address>e</Address>
+		<MobileNo>e</MobileNo>
+		<DOB>e</DOB>
+		<Age>e</Age>
+		<Qualification>e</Qualification>
+	</PersonalInfo>  

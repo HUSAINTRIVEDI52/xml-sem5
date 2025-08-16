@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<?xsl-stylesheet type="text/xsl" href="2.xsl"?>
+		<Order_Detail>
+			<OrderNumber></OrderNumber>
+			<Orderate></Orderate>
+			<OrderAmount></OrderAmount>
+			<ItemPrice></ItemPrice>
+			<ItemName></ItemName>
+			<Quantity></Quantity>
+		</Order_Detail>

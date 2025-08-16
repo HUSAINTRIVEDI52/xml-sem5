@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+	<xsd:element name="Lunch">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element name="Starter">
+					<xsd:simpleType>
+						<xsd:restriction base="xsd:string">
+							<xsd:enumeration value="Juicer"/>
+							<xsd:enumeration value="Soup"/>
+						</xsd:restriction>
+					</xsd:simpleType>
+				</xsd:element>
+				<xsd:element name="MainCourse">
+					<xsd:simpleType>
+						<xsd:restriction base="xsd:string">
+						<xsd:enumeration value="Veg"/>
+						<xsd:enumeration value="Non-Veg"/>
+							</xsd:restriction>
+					</xsd:simpleType>
+				</xsd:element>
+				<xsd:element name="Dessert">
+					<xsd:simpleType>
+						<xsd:restriction base="xsd:string">
+							<xsd:enumeration value="Ice cream"/>
+							<xsd:enumeration value="Pasta"/>
+						</xsd:restriction>
+					</xsd:simpleType>
+				</xsd:element>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+</xsd:schema>

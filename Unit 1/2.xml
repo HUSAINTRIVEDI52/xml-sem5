@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Student>
+	<PersonalInfo>
+		<RollNo>105</RollNo>
+		<Name>Husain</Name>
+		<Address>Ahmedabad</Address>
+		<Mobile>6541239870</Mobile>
+		<DOB>24-08-2005</DOB>
+		<Age>18</Age>
+		<Qualification>BCA</Qualification>
+	</PersonalInfo>
+	
+	<PersonalInfo>
+		<RollNo>83</RollNo>
+		<Name>Ramam</Name>
+		<Address>Mandvi</Address>
+		<Mobile>9876585214</Mobile>
+		<DOB>01-08-1280</DOB>
+		<Age>60</Age>
+		<Qualification>BBA</Qualification>
+	</PersonalInfo>
+	
+	<PersonalInfo>
+		<RollNo>70</RollNo>
+		<Name>Shivam</Name>
+		<Address>Delhi</Address>
+		<Mobile>9876543212</Mobile>
+		<DOB>05-08-2001</DOB>
+		<Age>60</Age>
+		<Qualification>BBA</Qualification>
+	</PersonalInfo>
+</Student>

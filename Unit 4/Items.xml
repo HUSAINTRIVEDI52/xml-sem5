@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	
+	<Items>
+		<Name>ff</Name>
+		<Category>
+		<Veg>Biscuits</Veg>
+		<NonVeg>dd</NonVeg>
+		</Category>
+		<CompanyInfo>
+			<PhoneNo>dd</PhoneNo>
+			<Address>dd</Address>
+		</CompanyInfo>
+	
+	</Items>

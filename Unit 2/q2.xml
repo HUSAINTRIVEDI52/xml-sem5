@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE email [
+    <!ELEMENT email (message)>
+    <!ELEMENT message (#PCDATA)>
+    <!ATTLIST message from CDATA #REQUIRED
+        to CDATA #REQUIRED
+        subject CDATA #REQUIRED>
+]>
+<email>
+    <message from="johndoe@example.com" to="janedoe@example.com" subject="Meeting Update">
+        Hello, please find the update for tomorrow's meeting.
+    </message>
+</email>

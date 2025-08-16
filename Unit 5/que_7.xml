@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<?xml-stylesheet type="text/xsl" href="que_6.xsl"?>
+		<Students>
+	<Student>
+		<Roll_no>100</Roll_no>
+		<Name>Husain</Name>
+		<Marks>50</Marks>
+		<Rank>12</Rank>
+			</Student>
+		
+			<Student>
+		<Roll_no>102</Roll_no>
+		<Name>Rohit</Name>
+		<Marks>52</Marks>
+		<Rank>2</Rank>
+			</Student>
+			
+			
+			<Student>
+		<Roll_no>103</Roll_no>
+		<Name>Khan</Name>
+		<Marks>45</Marks>
+		<Rank>5</Rank>
+			</Student>
+		
+			<Student>
+		<Roll_no>104</Roll_no>
+		<Name>James</Name>
+		<Marks>60</Marks>
+		<Rank>1</Rank>
+			</Student>
+		
+			<Student>
+		<Roll_no>105</Roll_no>
+		<Name>Mangoose</Name>
+		<Marks>90</Marks>
+		<Rank>5</Rank>
+			</Student>
+		
+			<Student>
+		<Roll_no>106</Roll_no>
+		<Name>Eris</Name>
+		<Marks>66</Marks>
+		<Rank>32</Rank>
+			</Student>
+	</Students>

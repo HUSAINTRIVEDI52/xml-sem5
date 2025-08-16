@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE letter SYSTEM "9.dtd">
+<letter>
+    <contact type="manager">
+        <name>Ravi Kumar</name>
+        <address>Shivaji Nagar</address>
+        <city>Pune</city>
+        <pin>411027</pin>
+        <state>Maharashtra</state>
+        <flag gender="male"></flag>
+    </contact>
+    <salutation>Dear Sir</salutation>
+    <paragraph>Hope this finds you well.</paragraph>
+    <closing>Regards</closing>
+    <signature>Ravi</signature>
+</letter>

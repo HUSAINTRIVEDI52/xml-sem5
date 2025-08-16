@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="New_employee.xsl"?>
+
+<emp_info>
+    <employee emp_id="101">
+        <fname>Husain</fname>
+        <lname>Trivedi</lname>
+    </employee>
+    <employee emp_id="102">
+        <fname>Rohit</fname>
+        <lname>Sharma</lname>
+    </employee>
+</emp_info>

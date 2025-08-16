@@ -1,0 +1,11 @@
+<xml version="1.0" encoding="UTF-8"?>
+	
+	<PersnolInfo>
+		<RollNo></RollNo>
+		<Name></Name>
+		<Address></Address>
+		<MobileNo></MobileNo>
+		<DOB></DOB>
+		<Age></Age>
+		<Qualification></Qualification>
+	</PersnolInfo>

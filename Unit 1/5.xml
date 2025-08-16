@@ -1,0 +1,19 @@
+<Order>
+	<OrderDetail>
+		<OrderNumber>100</OrderNumber>
+		<OrderDate>10-10-2024</OrderDate>
+		<OrderAmount>16,000</OrderAmount>
+		<ItemPrice>16,000</ItemPrice>
+		<ItemName>Mi note 12</ItemName>
+		<Quantity>01</Quantity>
+	</OrderDetail>
+	
+	<OrderDetail>
+		<OrderNumber>101</OrderNumber>
+		<OrderDate>01-11-2024</OrderDate>
+		<OrderAmount>12,000</OrderAmount>
+		<ItemPrice>12,000</ItemPrice>
+		<ItemName>Smsng Galaxy A14</ItemName>
+		<Quantity>01</Quantity>
+	</OrderDetail>
+</Order>

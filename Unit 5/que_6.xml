@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<?xml-stylesheet type="text/xsl" href="que_6.xsl"?>
+
+			<Student>
+				<Name fname="Husain" lname="Trivedi"/>
+				<ID>1011</ID>
+				<Plan>
+					<courses>BCA</courses>
+				</Plan>
+				<Name fname="Trivedi" lname="Husain"></Name>
+				<ID>1022</ID>
+				<Plan>
+					<courses>BCA(hons)</courses>
+				</Plan>
+				
+			</Student>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<?xsl-stylesheet type="text/xsl" href="que_3.xsl"?>
+		
+		<Books>
+			<Book title="mml">
+				<Author>Husain Trivedi</Author>
+				<Year>1236</Year>
+				<Publisher>K.L.</Publisher>
+			</Book>
+			
+			<Book title="mml">
+				<Author>Hus Trivedi</Author>
+				<Year>1836</Year>
+				<Publisher>h.K.L.</Publisher>
+			</Book>
+			
+			<Book title="mpl">
+				<Author>ain Trivedi</Author>
+				<Year>1954</Year>
+				<Publisher>K.L.I.</Publisher>
+			</Book>
+			
+			<Book title="mml">
+				<Author>Husain </Author>
+				<Year>1836</Year>
+				<Publisher>O.K.L.</Publisher>
+			</Book>
+			
+			<Book title="ppl">
+				<Author> Trivedi</Author>
+				<Year>1986</Year>
+				<Publisher>j>K.L.</Publisher>
+			</Book>
+		</Books>

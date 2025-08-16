@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<!DOCTYPE Students SYSTEM "Students.dtd">
+<Students>
+		<Name>
+			<Fname></Fname>
+			<Lname></Lname>
+		</Name>
+		<ID></ID>
+		<Plan>
+			<Courses year="2022">
+				<Course>
+					<CName></CName>
+				<ShortName></ShortName>
+				<Record>
+					<Grade></Grade>
+					<Date></Date>
+				</Record>
+				</Course>
+			</Courses>
+		</Plan>
+</Students>

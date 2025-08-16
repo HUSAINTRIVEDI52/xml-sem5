@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <xsd:simpleType name="title_type">
+        <xsd:restrictionbase="xsd:string">
+        <xsd minLength="3"/>
+        <xsd maxLength="4"/>    
+    </xsd:restriction>
+    </xsd:simpleType>
+
+<xsd:element name="Emp_FACET" type="Emp_mixtype"/>
+<xsd:complexType name="Emp_mixtype">
+    <xsd:sequence>
+        <xsd:element name="title" type="title_type"/>
+        <xsd:element name="first_name" type="xsd:string"/>
+        <xsd:element name="middle_name" type="xsd:string"/>
+        <xsd:element name="last_name" type="xsd:string"/>
+    </xsd:sequence>
+    </xsd:complexType>
+    </xsd:schema>

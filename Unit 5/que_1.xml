@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<?xsl-stylesheet type="" href="que_1.xls"?>
+		
+			<emp_info>
+				<employee>
+					<emp_name emp_id="101" ></emp_name>
+					<firstname></firstname>
+					<lastname></lastname>
+				</employee>
+			</emp_info>
+		

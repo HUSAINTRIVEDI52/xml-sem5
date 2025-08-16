@@ -1,0 +1,25 @@
+<Letter>
+    <contact type="Manager" gender="Male">
+        <name>Husain</name>
+        <address>Gandhinagar Sector 12</address>
+        <city>Gandhinagar</city>
+        <pin>10601</pin>
+        <state>Gujarat</state>
+    </contact>
+    <salutation>Dear Sir,</salutation>
+    <paragraph>I am writing to inquire about the walk in intervier in your department.</paragraph>
+    <closing>Sincerely,</closing>
+    <signature>Husain </signature>
+
+    <contact type="HR Manager" gender="Male">
+        <name>Riya</name>
+        <address>Green CHowk,Limbdi</address>
+        <city>HLimbdi</city>
+        <pin>10002</pin>
+        <state>Gujarat</state>
+    </contact>
+    <salutation>Dear Sir,</salutation>
+    <paragraph>I am writing to inquire about the Festival in your company</paragraph>
+    <closing>Sincerely,</closing>
+    <signature>Meet Riya</signature>
+</Letter>    

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<!DOCTYPE Student SYSTEM "4.dtd">
+<Student>
+	<Student_Name>Husain TRivedi</Student_Name>
+	<Personal_Info>
+		<Address>Ahmedabad</Address>
+		<Birthdate>24082005</Birthdate>
+		<Gender><Male/></Gender>
+		<Mobile>77963145</Mobile>
+	</Personal_Info>
+	<Result>
+		<Total>500</Total>
+		<Percentage>55</Percentage>
+		<Grade><Pass/></Grade>
+	</Result>
+</Student>

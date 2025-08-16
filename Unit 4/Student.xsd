@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+	<xsd:element name="Student">
+	<xsd:complexType>
+	<xsd:sequence>
+		<xsd:element name="Fname" type="xsd:string"/>
+		<xsd:element name="Lname" type="xsd:string"/>
+		<xsd:element name="Address" type="xsd:string"/>
+		<xsd:element name="Percentage" type="xsd:integer"/>
+		<xsd:element name="CYear" type="xsd:integer"/>
+	</xsd:sequence>
+	</xsd:complexType>
+	
+	</xsd:element>
+</xsd:schema>

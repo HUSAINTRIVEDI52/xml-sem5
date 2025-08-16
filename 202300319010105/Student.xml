@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<!DOCTYPE Student SYSTEM "Student.dtd">
+
+<Student>
+	<StudentName></StudentName>
+	<PersnolInfo Gender="Male">
+			<Address></Address>
+			<BirthDate></BirthDate>
+			<Gender></Gender>
+			<Mobile></Mobile>
+	</PersnolInfo>
+	<Result>
+		<Total></Total>
+		<Percentage></Percentage>
+		<Grade value="Pass"></Grade>
+	</Result>
+</Student>
+	

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<!DOCTYPE Order_Detail[
+		<!ELEMENT  Order_Detail (OrderNumber,Order_rate,OrderAmount?,Item_Price*,ItemName+,Quantity*)>
+		<!ELEMENT OrderNumber (#PCDATA)>
+		<!ATTLIST OrderNumber OrderDate CDATA #REQUIRED>
+		<!ELEMENT Order_rate (#PCDATA)>
+		<!ELEMENT OrderAmount (#PCDATA)>
+		<!ELEMENT Item_Price (#PCDATA)>
+		<!ELEMENT ItemName (#PCDATA)>
+		<!ELEMENT Quantity (#PCDATA)> 
+		]>
+	
+	<Order_Detail>
+		<OrderNumber OrderDate="44" >123</OrderNumber>
+		<Order_rate>4587</Order_rate>
+		<OrderAmount>7410</OrderAmount>
+		<Item_Price>455</Item_Price>
+		<ItemName>Soap</ItemName>
+		<Quantity>55</Quantity>
+	</Order_Detail>

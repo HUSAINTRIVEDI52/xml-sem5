@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BOOK xmlms:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="book_FACET.xsd">
+    <TITLE>Web Technology</TITLE>
+    <AUTHOR>John Doe</AUTHOR>
+    <PUBLISHER>Wiley</PUBLISHER>
+    <PRICE>250</PRICE>
+    <PUB_YEAR>1999</PUB_YEAR>
+</BOOK>

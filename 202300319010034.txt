@@ -1,0 +1,315 @@
+
+
+UNIT 2
+
+q1.xml  
+xml
+<!DOCTYPE per SYSTEM "1.dtd">
+<per>
+    <roll>202</roll>
+    <name>John</name>
+    <address>Mumbai</address>
+    <mobile>9876543210</mobile>
+    <dob>15/10/2002</dob>
+    <age>23</age>
+    <qualification>MCA</qualification>
+</per>
+
+1.dtd  
+xml
+<!ELEMENT per (roll, name, address, mobile, dob, age, qualification)>
+<!ELEMENT roll (#PCDATA)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT address (#PCDATA)>
+<!ELEMENT mobile (#PCDATA)>
+<!ELEMENT dob (#PCDATA)>
+<!ELEMENT age (#PCDATA)>
+<!ELEMENT qualification (#PCDATA)>
+
+
+
+
+q2.xml
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE email [
+    <!ELEMENT email (message)>
+    <!ELEMENT message (#PCDATA)>
+    <!ATTLIST message from CDATA #REQUIRED
+        to CDATA #REQUIRED
+        subject CDATA #REQUIRED>
+]>
+<email>
+    <message from="johndoe@example.com" to="janedoe@example.com" subject="Meeting Update">
+        Hello, please find the update for tomorrow's meeting.
+    </message>
+</email>
+
+
+
+q3.xml  
+xml
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE order [
+    <!ELEMENT order (no , rate , amt , price* , name+ , quantity*)>
+    <!ELEMENT no (#PCDATA)>
+    <!ATTLIST no date CDATA #REQUIRED>
+    <!ELEMENT rate (#PCDATA)>
+    <!ELEMENT amt (#PCDATA)>
+    <!ELEMENT price (#PCDATA)>
+    <!ELEMENT name (#PCDATA)>
+    <!ELEMENT quantity (#PCDATA)>
+]>
+<order>
+    <no date="25/11/2025">202</no>
+    <rate>800</rate>
+    <amt>1200</amt>
+    <price>700</price>
+    <name>Pen</name>
+    <quantity>50</quantity>
+</order>
+
+
+q4.xml  
+xml
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE student SYSTEM "4.dtd">
+<student>
+    <name>Ravi</name>
+    <per>
+        <address>Pune</address>
+        <dob>22/09/1995</dob>
+        <gender>
+            <Male/>
+        </gender>
+        <mobile>9887766554</mobile>
+    </per>
+    <result>
+        <total>850</total>
+        <percentage>90</percentage>
+        <grade>
+            <Dist. />
+        </grade>
+    </result>
+</student>
+
+
+q4.dtd  
+xml
+<!ELEMENT student (name , per , result)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT per (address, dob, gender, mobile)>
+<!ELEMENT address (#PCDATA)>
+<!ELEMENT dob (#PCDATA)>
+<!ELEMENT gender (Male | Female)>
+<!ELEMENT Male EMPTY>
+<!ELEMENT Female EMPTY>
+<!ELEMENT mobile (#PCDATA)>
+<!ELEMENT result (total, percentage, grade)>
+<!ELEMENT total (#PCDATA)>
+<!ELEMENT percentage (#PCDATA)>
+<!ELEMENT grade (Pass | First | Dist. | Second | Fail)>
+<!ELEMENT Pass EMPTY>
+<!ELEMENT First EMPTY>
+<!ELEMENT Dist. EMPTY>
+<!ELEMENT Second EMPTY>
+<!ELEMENT Fail EMPTY>
+
+q5.xml 
+xml
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE books SYSTEM "5.dtd">
+<books>
+    <book title="XML Basics">
+        Introduction to XML
+    </book>
+    <author>Mark Smith</author>
+    <year>2020</year>
+    <publisher>Tech Press</publisher>
+</books>
+
+
+5.dtd
+<!ELEMENT books (book, author, year, publisher)>
+<!ELEMENT book (#PCDATA)>
+<!ATTLIST book title (XML | DCN) #REQUIRED>
+<!ELEMENT author (#PCDATA)>
+<!ELEMENT year (#PCDATA)>
+<!ELEMENT publisher (#PCDATA)>
+
+
+q6.xml
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE student SYSTEM "6.dtd">
+<student>
+    <name>
+        <fname>Neha</fname>
+        <lname>Sharma</lname>
+    </name>
+    <id>202</id>
+    <plan>
+        <courses year="2023">
+            <course>
+                <cname>MCA</cname>
+                <sname>Software Engineering</sname>
+                <record>
+                    <grade>A+</grade>
+                    <date>20/12/2023</date>
+                </record>
+            </course>
+        </courses>
+    </plan>
+</student>
+ 
+
+6.dtd
+<!ELEMENT student (name, id, plan)>
+<!ELEMENT name (fname, lname)>
+<!ELEMENT fname (#PCDATA)>
+<!ELEMENT lname (#PCDATA)>
+<!ELEMENT id (#PCDATA)>
+<!ELEMENT plan (courses)>
+<!ELEMENT courses (course*)>
+<!ATTLIST courses year CDATA #REQUIRED>
+<!ELEMENT course (cname, sname, record*)>
+<!ELEMENT cname (#PCDATA)>
+<!ELEMENT sname (#PCDATA)>
+<!ELEMENT record (grade, date)>
+<!ELEMENT grade (#PCDATA)>
+<!ELEMENT date (#PCDATA)>
+       
+
+q7.xml
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE email SYSTEM "7.dtd">
+<email>
+    <from>johndoe@gmail.com</from>
+    <to>janedoe@gmail.com</to>
+    <content>Hello Janedoe,<br>Here's the project update.
+        <person>John</person>
+        <exercises>
+            <exercise>
+                <topic>XML Parsing</topic>
+                <description>Learn about parsing XML files</description>
+            </exercise>
+        </exercises>
+        <course>Software Development</course>
+    </content>
+</email>
+
+7.dtd
+
+
+<!ELEMENT email (from, to , content)>
+<!ELEMENT from (#PCDATA)>
+<!ELEMENT to (#PCDATA)>
+<!ELEMENT content (#PCDATA | person | exercises | course)*>
+<!ELEMENT person (#PCDATA)>
+<!ELEMENT exercises (exercise*)>
+<!ELEMENT exercise (topic, description)>
+<!ELEMENT topic (#PCDATA)>
+<!ELEMENT description (#PCDATA)>
+<!ELEMENT course (#PCDATA)>
+
+
+
+q8.xml
+
+<?xml version="1.0" encoding="UTF-8"?>
+<student xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="8.dtd">
+    <roll>202</roll>
+    <name>Ravi</name>
+    <marks>
+        <technologies>95</technologies>
+        <XML>92</XML>
+        <J2EE>93</J2EE>
+        <NS>96</NS>
+    </marks>
+    <rank>2</rank>
+</student>
+
+q8.dtd
+
+<!ELEMENT student (roll, name, marks, rank)>
+<!ELEMENT roll (#PCDATA)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT marks (technologies , XML , J2EE , NS)>
+<!ELEMENT technologies (#PCDATA)>
+<!ELEMENT XML (#PCDATA)>
+<!ELEMENT J2EE (#PCDATA)>
+<!ELEMENT NS (#PCDATA)>
+<!ELEMENT rank (#PCDATA)>
+
+
+q9.xml
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE letter SYSTEM "9.dtd">
+<letter>
+    <contact type="manager">
+        <name>Ravi Kumar</name>
+        <address>Shivaji Nagar</address>
+        <city>Pune</city>
+        <pin>411027</pin>
+        <state>Maharashtra</state>
+        <flag gender="male"></flag>
+    </contact>
+    <salutation>Dear Sir</salutation>
+    <paragraph>Hope this finds you well.</paragraph>
+    <closing>Regards</closing>
+    <signature>Ravi</signature>
+</letter>
+
+
+9.dtd
+
+<!ELEMENT letter (contact, salutation, paragraph, closing, signature)>
+<!ELEMENT contact (name, address, city, pin, state, flag)>
+<!ATTLIST contact type (manager | officer | sender) "sender">
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT address (#PCDATA)>
+<!ELEMENT city (#PCDATA)>
+<!ELEMENT pin (#PCDATA)>
+<!ELEMENT state (#PCDATA)>
+<!ELEMENT flag (#PCDATA)>
+<!ATTLIST flag gender (male | female) "male">
+<!ELEMENT salutation (#PCDATA)>
+<!ELEMENT paragraph (#PCDATA)>
+<!ELEMENT closing (#PCDATA)>
+<!ELEMENT signature (#PCDATA)>
+
+
+q10.xml
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Contects SYSTEM "10.dtd" [
+    <!ENTITY greeting "Hello World">
+]> 
+<Contects>
+    <contect conid="c2">
+        <name>Ramesh</name>
+        <email>ramesh@example.com</email>
+    </contect>
+    <contect_no type="office" token="
+
+A1234">
+        <location>Chennai</location>
+        <number>9876543210</number>
+    </contect_no>
+    <contect_no type="home" token="H5678">
+        <location>Bangalore</location>
+        <number>9876543210</number>
+    </contect_no>
+</Contects>
+
+
+q10.dtd
+<!ELEMENT Contects (contect, contect_no+)>
+<!ELEMENT contect (name, email)>
+<!ATTLIST contect conid CDATA #REQUIRED>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT contect_no (location, number)>
+<!ATTLIST contect_no type (home | office) #REQUIRED>
+<!ATTLIST contect_no token CDATA #REQUIRED>
+<!ELEMENT location (#PCDATA)>
+<!ELEMENT number (#PCDATA)>

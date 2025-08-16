@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<!DOCTYPE Email SYSTEM "Email.dtd">
+	<Email>
+		<From></From>
+		<To></To>
+		<Content>
+			<Person></Person>
+			<exercises> 
+				<exercise>
+					<Topic></Topic>
+					<Description></Description>
+				</exercise>
+			</exercises>
+					<course></course>
+		</Content>
+
+	</Email>

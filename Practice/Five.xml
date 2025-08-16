@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<SalesPerson>
+		<Name>Husain</Name>
+		<BusinessInfo>
+			<Company>One</Company>
+			<Department>One</Department>
+			<Manager>Two</Manager>
+			<PhoneNo>1236547890</PhoneNo>
+			<Email>Husaintd522@gmail.com</Email>
+		</BusinessInfo>
+		<PersonalInfo>
+			<PhoneNo>1236547890</PhoneNo>
+			<Address>Ahmedabad</Address>
+		</PersonalInfo>
+		
+	</SalesPerson>

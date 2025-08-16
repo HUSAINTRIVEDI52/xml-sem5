@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<Email>
+		<from></from>
+		<to></to>
+		<content>
+			<person></person>
+			<exercises>
+				<exercise>
+					<topic></topic>
+					<description></description>
+				</exercise>
+				<course></course>
+			</exercises>
+		</content>
+	</Email>

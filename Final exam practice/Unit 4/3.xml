@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<Student>
+		<Name>Husain</Name>
+		<Personal_info>
+			<Address>Ahmedabad</Address>
+			<Birthdate>2005-02-21</Birthdate>
+			<Gender>Male</Gender>
+			<Mobile>1234567890</Mobile>
+		</Personal_info>
+		<Result>
+			<Total>11</Total>
+			<Percentage>11</Percentage>
+			<Grade>11</Grade>
+		</Result>
+	</Student>

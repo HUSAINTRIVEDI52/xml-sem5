@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<?xml-stylesheet type="text/xsl" href="ex.xsl"?>
+	<Vendor>
+	<Name>Husain</Name>
+	<PersnolInfo>
+	<Address>Astodiya</Address>
+	<Gender>Male</Gender>
+	<BirthDate>2485</BirthDate>
+	<Pincode>363421</Pincode>
+	
+	</PersnolInfo>
+	</Vendor>

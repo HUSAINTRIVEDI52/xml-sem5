@@ -1,0 +1,16 @@
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+    <!-- Defining an Attribute Group -->
+    <xsd:attributeGroup name="commonAttributes">
+        <xsd:attribute name="id" type="xsd:int" use="required"/>
+        <xsd:attribute name="name" type="xsd:string" use="required"/>
+    </xsd:attributeGroup>
+
+    <!-- Defining an Element that Uses the Attribute Group -->
+    <xsd:element name="person">
+        <xsd:complexType>
+            <xsd:attributeGroup ref="commonAttributes"/>
+        </xsd:complexType>
+    </xsd:element>
+
+</xsd:schema>

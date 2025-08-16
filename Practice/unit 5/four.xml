@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<?xml-stylesheet type="text/xsl" href="four.xsl"?>
+		
+		<Student>
+			<Student_info>
+				<Name>Husain</Name>
+				<PersonalInfo>
+					<Address>Ahmedabad</Address>
+					<BirthDate>24-08-2005</BirthDate>
+					<Gender>Male</Gender>
+					<MobileNo>7698379853</MobileNo>
+				</PersonalInfo>
+				<Result>100</Result>
+			</Student_info>
+
+		<Student_info>
+				<Name>Tr</Name>
+				<PersonalInfo>
+					<Address>Ahmedabad</Address>
+					<BirthDate>24-08-2005</BirthDate>
+					<Gender>Male</Gender>
+					<MobileNo>7698379853</MobileNo>
+				</PersonalInfo>
+				<Result>110</Result>
+			</Student_info>
+			
+			<Student_info>
+				<Name>Husain</Name>
+				<PersonalInfo>
+					<Address>Ahmedabad</Address>
+					<BirthDate>24-08-2005</BirthDate>
+					<Gender>Male</Gender>
+					<MobileNo>7698379853</MobileNo>
+				</PersonalInfo>
+				<Result>100</Result>
+			</Student_info>
+			
+			<Student_info>
+				<Name>Husain</Name>
+				<PersonalInfo>
+					<Address>Ahmedabad</Address>
+					<BirthDate>24-08-2005</BirthDate>
+					<Gender>Male</Gender>
+					<MobileNo>7698379853</MobileNo>
+				</PersonalInfo>
+				<Result>100</Result>
+			</Student_info>
+			
+			<Student_info>
+				<Name>qw</Name>
+				<PersonalInfo>
+					<Address>Ahmedabad</Address>
+					<BirthDate>24-08-2005</BirthDate>
+					<Gender>Male</Gender>
+					<MobileNo>7698379853</MobileNo>
+				</PersonalInfo>
+				<Result>10</Result>
+			</Student_info>
+		
+				</Student>

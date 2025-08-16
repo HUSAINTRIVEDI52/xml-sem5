@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	
+<Student>
+	<Name>ff</Name>
+	<PersnolInfo>
+		<Address>mn</Address>
+		<BirthDate>dd</BirthDate>
+		<Gender>ff</Gender>
+		<MobileNo>1236547859</MobileNo>
+	</PersnolInfo>
+	<Result>
+		<Total>44</Total>
+		<Percentage>55</Percentage>
+		<Grade>A</Grade>
+	</Result>
+	</Student>

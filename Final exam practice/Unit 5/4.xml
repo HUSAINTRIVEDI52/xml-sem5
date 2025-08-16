@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<?xsl-stylesheet type="xsl/text" href="4.xsl"?>
+	<emp_info>
+		<employee>
+			<emp_name emp_id="101">Husain</emp_name>
+			<fname>Husain</fname>
+			<lname>Trivedi</lname>
+		</employee>
+	</emp_info>

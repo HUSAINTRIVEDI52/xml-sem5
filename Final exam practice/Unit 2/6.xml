@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+	<!DOCTYPE Student SYSTEM "6.dtd">
+	<Student>
+		<Name>
+			<fname>Husain</fname>
+			<lname>Trivedi</lname>
+		</Name>
+		<ID>14</ID>
+		<Plan>
+			<courses year="1111">
+				<course>
+					<name></name>
+					<shortname></shortname>
+					<record>
+						<grade></grade>
+						<date></date>
+					</record>
+				</course>
+			</courses>
+		</Plan>
+	</Student>

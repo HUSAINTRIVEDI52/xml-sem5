@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE order [
+    <!ELEMENT order (no , rate , amt , price* , name+ , quantity*)>
+    <!ELEMENT no (#PCDATA)>
+    <!ATTLIST no date CDATA #REQUIRED>
+    <!ELEMENT rate (#PCDATA)>
+    <!ELEMENT amt (#PCDATA)>
+    <!ELEMENT price (#PCDATA)>
+    <!ELEMENT name (#PCDATA)>
+    <!ELEMENT quantity (#PCDATA)>
+]>
+<order>
+    <no date="25/11/2025">202</no>
+    <rate>800</rate>
+    <amt>1200</amt>
+    <price>700</price>
+    <name>Pen</name>
+    <quantity>50</quantity>
+</order>

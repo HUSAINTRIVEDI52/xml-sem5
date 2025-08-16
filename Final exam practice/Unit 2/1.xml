@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<!DOCTYPE PersonalInfo SYSTEM "1.dtd">
+	<PersonalInfo>
+		<Roll_no>123</Roll_no>
+		<Name>Husain</Name>
+		<Address>Ahmedabad</Address>
+		<Mobile>7698379853</Mobile>
+		<DOB>24-08-2005</DOB>
+		<Age>45</Age>
+		<Qualification>BCA</Qualification>
+	</PersonalInfo>

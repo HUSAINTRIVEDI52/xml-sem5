@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<?xml-stylesheet type="text/xsl" href="one.xsl"?>
+		
+		<emp_info>
+			<employee emp_id="101">
+				<fname>Husain</fname>
+				<lname>Trivedi</lname>
+			</employee>
+	
+	
+					<employee emp_id="102">
+				<fname>Hatim</fname>
+				<lname>Trivedi</lname>
+					</employee>
+		
+		</emp_info>

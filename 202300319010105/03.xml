@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	
+	<OrderDetail>
+		<OrderNumber>/</OrderNumber>
+		<OrderDate></OrderDate>
+		<OrderAmount></OrderAmount>
+		<Item></Item>
+		<Name></Name>
+		<Quantity></Quantity>
+	</OrderDetail>

@@ -1,0 +1,33 @@
+<Email>
+	<from>Husaintd522@gmail.com</from>
+	<to>Nope123@gmail.com</to>
+	<Content>
+		<Person>
+           <name>Husian</name>
+           <age>19</age>
+		</Person>
+		<Exercises>
+			<exercise topic="Maths" description="Solve Triginomatry equations"/>
+            <exercise topic="Science" description="Study Newton's Laws"/>
+		</Exercises>
+		<course>
+            <name>Cyber Security</name>
+            <shortName>CS101</shortName>
+        </course>
+    </Content>
+ 
+	<Content>
+		<Person>
+           <name>Khushi</name>
+           <age>16</age>
+		</Person>
+		<Exercises>
+			<exercise topic="Maths" description="Solve  equations"/>
+            <exercise topic="Science" description="Study New Laws"/>
+		</Exercises>
+		<course>
+            <name>Computer Science</name>
+            <shortName>CS102</shortName>
+        </course>
+    </Content>
+</Email>

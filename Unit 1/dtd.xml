@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE Persnol_Info[
+	<!ELEMENT Persnol_Info (RollNo,Name,Address,DOB,Age,Qualification)>
+	<!ELEMENT RollNo (#PCDATA)>
+	<!ELEMENT Name (#PCDATA)>	
+	<!ELEMENT Address (#PCDATA)>
+	<!ELEMENT DOB (#PCDATA)>
+	<!ELEMENT Age (#PCDATA)>
+	<!ELEMENT Qualification (#PCDATA)>
+	]>
+
+
+
+	<Persnol_Info>
+			<RollNo>123</RollNo>
+			<Name>Husain</Name>
+			<Address>45</Address>
+			<Mobile_no>78654</Mobile_no>
+			<DOB>24082005</DOB>
+			<Age>15</Age>
+			<Qualification>fdf</Qualification>
+	</Persnol_Info>
+	

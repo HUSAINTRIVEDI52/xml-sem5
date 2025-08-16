@@ -1,0 +1,27 @@
+<Student>
+    <Name>
+        <fname>Husain</fname>
+        <Lname>Trivedi</Lname>
+    </Name>
+    <ID>11111</ID>
+    <Plan>
+        <courses year="2025">
+            <course>
+                <name>Envt Science</name>
+                <shortName>Es101</shortName>
+                <record>
+                    <Grade>A+</Grade>
+                    <date>2024-12-15</date>
+                </record>
+            </course>
+            <course>
+                <name>Global</name>
+                <shortName>GB101</shortName>
+                <record>
+                    <Grade>B+</Grade>
+                    <date>2025-10-05</date>
+                </record>
+            </course>
+        </courses>
+    </Plan>
+</Student>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<!DOCTYPE books SYSTEM "5.dtd">
+<books>
+    <book title="XML">
+        Introduction to XML
+    </book>
+    <author>Mark Smith</author>
+    <year>2020</year>
+    <publisher>Tech Press</publisher>
+</books>

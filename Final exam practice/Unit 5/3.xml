@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+		<?xsl-stylesheet type="xsl/text" href="3.xsl"?>
+			<Books>
+				<book title="abc">
+				<author>poi</author>
+				<year>1995</year>
+				<publisher>ssd</publisher>
+				</book>
+				
+				<book title="qwe">
+				<author>aaq</author>
+				<year>1999</year>
+				<publisher>lop</publisher>
+				</book>
+				
+				<book title="ert">
+				<author>qww</author>
+				<year>2105</year>
+				<publisher>qwer</publisher>
+				</book>
+				
+				<book title="ewq">
+				<author>ase</author>
+				<year>2011</year>
+				<publisher>sks</publisher>
+				</book>
+				
+				<book title="ssw">
+				<author>see</author>
+				<year>2001</year>
+				<publisher>tre</publisher>
+				</book>
+			</Books>

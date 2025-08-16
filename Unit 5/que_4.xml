@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<?xsl-stylesheet type="text/xsl" href="que_4.xsl"?>
+		<Student_info>
+		<Student>
+			<Name>Husain</Name>
+			<PersonalInfo>
+				<Address>Ahmedabad</Address>
+				<BirthDate>24-08-2005</BirthDate>
+				<Gender>Male</Gender>
+				<MobileNo>7698379853</MobileNo>
+			</PersonalInfo>
+			<Result>145</Result>
+		</Student>
+		
+		<Student>
+			<Name>Husain M</Name>
+			<PersonalInfo>
+				<Address>Ahmedabad city</Address>
+				<BirthDate>24-08-2010</BirthDate>
+				<Gender>FeMale</Gender>
+				<MobileNo>8698379853</MobileNo>
+			</PersonalInfo>
+			<Result>194</Result>
+		</Student>
+		
+		<Student>
+			<Name>Husain T</Name>
+			<PersonalInfo>
+				<Address> New Ahmedabad</Address>
+				<BirthDate>22-08-2005</BirthDate>
+				<Gender>Male</Gender>
+				<MobileNo>7628379853</MobileNo>
+			</PersonalInfo>
+			<Result>122</Result>
+		</Student>
+		
+		</Student_info>

@@ -1,0 +1,10 @@
+<!ELEMENT Contects (contect, contect_no+)>
+<!ELEMENT contect (name, email)>
+<!ATTLIST contect conid CDATA #REQUIRED>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT contect_no (location, number)>
+<!ATTLIST contect_no type (home | office) #REQUIRED>
+<!ATTLIST contect_no token CDATA #REQUIRED>
+<!ELEMENT location (#PCDATA)>
+<!ELEMENT number (#PCDATA)> 

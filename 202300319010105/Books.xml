@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	
+	<!DOCTYPE Books SYSTEM "Books.dtd">
+	
+<Books>
+	<Book title="XML"></Book>	
+	<Author></Author>
+	<Year>2000</Year>
+	<Publisher></Publisher>
+</Books>

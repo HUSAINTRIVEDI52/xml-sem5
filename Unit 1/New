@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<student>
+		<StudentName>Husain</StudentName>
+		<Persnolinfo>
+			<Address>Satellite</Address>
+			<BD>24/08/2005</BD>
+			<Gender>Male</Gender>
+			<MobileNo>7698379853</MobileNo>
+		</Persnolinfo>
+		<Result>
+			<total>200</total>
+			<Percentage>50.00</Percentage>
+			<Grade>A</Grade>
+		</Result>
+	
+	<StudentName>Husain Trivedi</StudentName>
+		<Persnolinfo>
+			<Address>Paldi</Address>
+			<BD>12/34/2332</BD>
+			<Gender>FeMale</Gender>
+			<MobileNo>789654123</MobileNo>
+		</Persnolinfo>
+		<Result>
+			<total>485</total>
+			<Percentage>45.6</Percentage>
+			<Grade>B</Grade>
+		</Result>
+	
+	
+	
+		</student>

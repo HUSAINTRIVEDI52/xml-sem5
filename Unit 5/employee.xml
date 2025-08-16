@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="employee.xsl"?>
+<emp_info>
+    <employee empID="E101">
+        <firstname>John</firstname>
+        <lastname>Doe</lastname>
+    </employee>
+    <employee empID="E102">
+        <firstname>Jane</firstname>
+        <lastname>Smith</lastname>
+    </employee>
+</emp_info>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<student xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="8.dtd">
+    <roll>202</roll>
+    <name>Ravi</name>
+    <marks>
+        <technologies>95</technologies>
+        <XML>92</XML>
+        <J2EE>93</J2EE>
+        <NS>96</NS>
+    </marks>
+    <rank>2</rank>
+</student>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Email>
+    <Message from="Husaintd522@gmail.com" to="xml123@gmail.com" subject="Cricket pllaying">
+        Hello xml,
+        this is a reminder about cricket team planning tomorrow at 10 AM.
+    </Message>
+
+    <Message from="Kinas521@gmail.com" to="oldal458@gmail.com" subject="Basketball Game">
+        Hello oldal,
+        this is a reminder about our Basketball game today at 08 PM.
+    </Message>
+
+    <Message from="ojas784@gmail.com" to="Inal44@gmail.com" subject="class">
+        Hello Inal, 
+        this is a reminder about our class tomorrow at 6 AM.
+    </Message>
+</Email>

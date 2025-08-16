@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE student SYSTEM "6.dtd">
+<student>
+    <name>
+        <fname>Neha</fname>
+        <lname>Sharma</lname>
+    </name>
+    <id>202</id>
+    <plan>
+        <courses year="2023">
+            <course>
+                <cname>MCA</cname>
+                <sname>Software Engineering</sname>
+                <record>
+                    <grade>A+</grade>
+                    <date>20/12/2023</date>
+                </record>
+            </course>
+        </courses>
+    </plan>
+</student>

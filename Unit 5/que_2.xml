@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<?xsl-stylesheet type="text/xsl" href="que_2.xsl"?>
+		<Order_Detail>
+			<OrderNumber>101</OrderNumber>
+			<Orderrate>2000</Orderrate>
+			<OrderAmount>5000</OrderAmount>
+			<ItemPrice>1000</ItemPrice>
+			<ItemName>Soap</ItemName>
+			<Quantity>1452</Quantity>
+		</Order_Detail>

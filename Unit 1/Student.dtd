@@ -1,0 +1,13 @@
+<!ELEMENT Student (StudentName,PersnolInfo,Result)>
+<!ELEMENT StudentName (#PCDATA)>
+<!ELEMENT PersnolInfo (Address,BirthDate,Gender,Mobile)>
+<!ELEMENT Address (#PCDATA)>
+<!ELEMENT BirthDate (#PCDATA)>
+<!ELEMENT Gender (#PCDATA)>
+<!ELEMENT Mobile (#PCDATA)>
+<!ELEMENT Result (Total,Percentage,Grade)>
+<!ELEMENT Total (#PCDATA)>
+<!ELEMENT Percentage (#PCDATA)>
+<!ELEMENT Grade (#PCDATA)>
+<!ATTLIST PersnolInfo Gender (Male|Female) #REQUIRED>
+<!ATTLIST Grade value (Pass| First|Dist|Second|Fail) #REQUIRED>

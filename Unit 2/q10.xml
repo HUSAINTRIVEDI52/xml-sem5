@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Contects SYSTEM "10.dtd" [
+    <!ENTITY greeting "Hello World">
+]> 
+<Contects>
+    <contect conid="c2">
+        <name>Ramesh</name>
+        <email>ramesh@example.com</email>
+    </contect>
+    <contect_no type="office" token="
+
+A1234">
+        <location>Chennai</location>
+        <number>9876543210</number>
+    </contect_no>
+    <contect_no type="home" token="H5678">
+        <location>Bangalore</location>
+        <number>9876543210</number>
+    </contect_no>
+</Contects>

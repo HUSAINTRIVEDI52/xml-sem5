@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Student>
+	<StudentName>Husain</StudentName>
+	<PersonalInfo>
+		<Address>Ahmedabad</Address>
+		<BirthDate>24-08-2005</BirthDate>
+		<Gender>Male</Gender>
+		<MobileNo>7698379853</MobileNo>
+	</PersonalInfo>
+	<Result>
+		<Total>550</Total>
+		<Percentage>82</Percentage>
+		<Grade>A</Grade>
+	</Result>
+	
+	<StudentName>Riya</StudentName>
+	<PersonalInfo>
+		<Address>Limbdi</Address>
+		<BirthDate>05-9-1980</BirthDate>
+		<Gender>FeMale</Gender>
+		<MobileNo>6541239870</MobileNo>
+	</PersonalInfo>
+	<Result>
+		<Total>580</Total>
+		<Percentage>90</Percentage>
+		<Grade>A+</Grade>
+	</Result>
+	
+	<StudentName>Shivam</StudentName>
+	<PersonalInfo>
+		<Address>Rajkot</Address>
+		<BirthDate>10-10-1980</BirthDate>
+		<Gender>Male</Gender>
+		<MobileNo>9876546589</MobileNo>
+	</PersonalInfo>
+	<Result>
+		<Total>580</Total>
+		<Percentage>90</Percentage>
+		<Grade>A+</Grade>
+	</Result>
+</Student>

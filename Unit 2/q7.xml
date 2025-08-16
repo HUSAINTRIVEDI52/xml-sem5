@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE email SYSTEM "7.dtd">
+<email>
+    <from>johndoe@gmail.com</from>
+    <to>janedoe@gmail.com</to>
+    <content>Hello Janedoe,<br>Here's the project update.
+        <person>John</person>
+        <exercises>
+            <exercise>
+                <topic>XML Parsing</topic>
+                <description>Learn about parsing XML files</description>
+            </exercise>
+        </exercises>
+        <course>Software Development</course>
+    </content>
+</email>

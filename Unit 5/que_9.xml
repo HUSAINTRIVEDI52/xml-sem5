@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<?xml-stylesheet type="text/xsl" href="que_9.xsl"?>
+		<Student>
+			
+			<Students>
+			<Roll_no>102</Roll_no>
+			<Name>Husain</Name>
+			<Marks>222</Marks>
+			<Rank>5</Rank>
+			<Result>113</Result>
+			</Students>
+						<Students>
+			<Roll_no>202</Roll_no>
+			<Name>Husain Trivedi</Name>
+			<Marks>229</Marks>
+			<Rank>1</Rank>
+			<Result>113</Result>
+						</Students>
+						<Students>
+			<Roll_no>152</Roll_no>
+			<Name>Husain bolt</Name>
+			<Marks>245</Marks>
+			<Rank>5</Rank>
+			<Result>113</Result>
+						</Students>
+						<Students>
+			<Roll_no>502</Roll_no>
+			<Name>Husain lokhandwala</Name>
+			<Marks>132</Marks>
+			<Rank>6</Rank>
+			<Result>453</Result>
+						</Students>
+									<Students>
+			<Roll_no>182</Roll_no>
+			<Name>Husain daudi</Name>
+			<Marks>147</Marks>
+			<Rank>9</Rank>
+			<Result>113</Result>
+						</Students>
+						<Students>
+			<Roll_no>182</Roll_no>
+			<Name>Husain kundal</Name>
+			<Marks>25</Marks>
+			<Rank>12</Rank>
+			<Result>713</Result>
+						</Students>
+			
+		</Student>

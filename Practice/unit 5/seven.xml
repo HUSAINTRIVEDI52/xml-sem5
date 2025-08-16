@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<?xml-stylesheet type="xsl/text" hef="seven.xsl"?>
+		
+		<Student>
+			<Student_info>
+				<Roll_no>101</Roll_no>
+				<Name>Husain Trivedi</Name>
+				<Marks>50</Marks>
+				<Rank>22</Rank>
+			</Student_info>
+			
+						<Student_info>
+				<Roll_no>101</Roll_no>
+				<Name>Husain Trivedi</Name>
+				<Marks>50</Marks>
+				<Rank>19</Rank>
+			</Student_info>
+
+
+			<Student_info>
+				<Roll_no>101</Roll_no>
+				<Name>Husain Trivedi</Name>
+				<Marks>50</Marks>
+				<Rank>8</Rank>
+			</Student_info>
+
+
+			<Student_info>
+				<Roll_no>101</Roll_no>
+				<Name>Husain Trivedi</Name>
+				<Marks>50</Marks>
+				<Rank>77</Rank>
+			</Student_info>
+
+
+			<Student_info>
+				<Roll_no>101</Roll_no>
+				<Name>Husain Trivedi</Name>
+				<Marks>50</Marks>
+				<Rank>6</Rank>
+			</Student_info>
+
+
+			<Student_info>
+				<Roll_no>101</Roll_no>
+				<Name>Husain Trivedi</Name>
+				<Marks>50</Marks>
+				<Rank>4</Rank>
+			</Student_info>
+
+
+			<Student_info>
+				<Roll_no>101</Roll_no>
+				<Name>Husain Trivedi</Name>
+				<Marks>50</Marks>
+				<Rank>3</Rank>
+			</Student_info>
+
+
+			<Student_info>
+				<Roll_no>101</Roll_no>
+				<Name>Husain Trivedi</Name>
+				<Marks>50</Marks>
+				<Rank>2</Rank>
+			</Student_info>
+
+		</Student>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<Student>
+	<StudentName>Husain Trivedi</StudentName>
+	<PersonalInfo>
+		<Address>Ahmedabad</Address>
+		<BirthDate>24-08-2005</BirthDate>
+		<Gender>Male</Gender>
+		<MobileNo>7698379833</MobileNo>
+	</PersonalInfo>
+	<Result>
+		<Total>500</Total>
+		<Percentage>50</Percentage>
+		<Grade>A</Grade>	
+	</Result>
+	
+	</Student>

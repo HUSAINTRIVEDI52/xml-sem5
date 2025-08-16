@@ -1,0 +1,10 @@
+<!DOCTYPE per SYSTEM "1.dtd">
+<per>
+    <roll>202</roll>
+    <name>John</name>
+    <address>Mumbai</address>
+    <mobile>9876543210</mobile>
+    <dob>15/10/2002</dob>
+    <age>23</age>
+    <qualification>MCA</qualification>
+</per>

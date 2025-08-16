@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+		<xsd:element name="Student">
+			<xsd:complexType>
+				<xsd:sequence>
+		
+				<!--Student name-->
+				<xsd:element name="Name"/>
+				
+				<!--Persnol Info-->
+				
+				<xsd:element name="PersnolInfo">
+					<xsd:complexType>
+					<xsd:sequence>
+					<xsd:element name="Address" type="xsd:string"/>
+					<xsd:element name="BirthDate" type="xsd:string"/>
+					<xsd:element name="Gender" type="xsd:string"/>
+					<xsd:element name="MobileNo">
+						<xsd:simpleType>
+						<xsd:restriction base="xsd:string">
+						<xsd:pattern value="[0-9]{10}"/>
+						</xsd:restriction>
+						</xsd:simpleType>
+					</xsd:element>
+					</xsd:sequence>
+					</xsd:complexType>
+				</xsd:element>
+				
+				<!--Result-->
+				<xsd:element name="Result">
+					<xsd:complexType>
+					<xsd:sequence>
+						<xsd:element name="Total" type="xsd:int"/>
+						<xsd:element name="Percentage" type="xsd:int"/>
+						<xsd:element name="Grade" type="xsd:string"/>					
+					</xsd:sequence>
+					</xsd:complexType>
+				</xsd:element>
+				</xsd:sequence>
+			</xsd:complexType>
+		</xsd:element>	
+</xsd:schema>

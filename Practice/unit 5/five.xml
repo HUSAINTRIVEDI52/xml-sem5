@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<?xml-stylesheet type="text/xsl" href="six.xsl"?>
+		
+
+			<Student_info>
+				<Student>
+					<Name fname="Husain" lname="Trivedi"/>
+					<ID>101</ID>
+					<Plan>
+						<Course>BCA</Course>
+					</Plan>
+					
+				</Student>
+				
+				<Student>
+					<Name fname="Husain" lname="Trivedi"/>
+					<ID>101</ID>
+					<Plan>
+						<Course>BCA</Course>
+					</Plan>
+					
+				</Student>
+				
+				<Student>
+					<Name fname="Husain" lname="Trivedi"/>
+					<ID>101</ID>
+					<Plan>
+						<Course>BCA</Course>
+					</Plan>
+					
+				</Student>
+			</Student_info>

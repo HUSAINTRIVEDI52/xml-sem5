@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<Student>
+		<Fname>Husain</Fname>
+		<Lname>Trivedi</Lname>
+		<Address>Ahmedabad</Address>
+		<Percentage>10</Percentage>
+		<Year>2025</Year>
+	</Student>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<!DOCTYPE OrderDetail SYSTEM "OrderDetail.dtd">
+
+<OrderDetail>
+	<OrderNumber OrderDate=""></OrderNumber>
+	<OrderRate></OrderRate>
+	<OrderAmount></OrderAmount>
+	<ItemPrice></ItemPrice>
+	<ItemName></ItemName>
+	<Quantity></Quantity>
+</OrderDetail>

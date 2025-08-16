@@ -1,0 +1,9 @@
+<!ELEMENT student (roll, name, marks, rank)>
+<!ELEMENT roll (#PCDATA)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT marks (technologies , XML , J2EE , NS)>
+<!ELEMENT technologies (#PCDATA)>
+<!ELEMENT XML (#PCDATA)>
+<!ELEMENT J2EE (#PCDATA)>
+<!ELEMENT NS (#PCDATA)>
+<!ELEMENT rank (#PCDATA)>

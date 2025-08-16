@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<!DOCTYPE Student SYSTEM "exdtd.dtd">
+
+<Student>
+	<Name>
+		<Fname>Husain</Fname>
+		<Lname>Trivedi</Lname>
+	</Name>
+	<ID>123</ID>
+	<Plan>
+		<Courses year="22">dd
+	<course>
+	<name>Math</name>
+			<ShortName>ff</ShortName>
+			<Record>
+				<Grade>ff</Grade>
+				<Date>ff</Date>
+			</Record>
+</course>
+			</Courses>	
+	</Plan>
+</Student>

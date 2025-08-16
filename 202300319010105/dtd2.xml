@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+		
+	<!DOCTYPE Email[
+	<!ELEMENT Email (Messege)>
+	<!ELEMENT Messege (#PCDATA)>
+	<!ATTLIST Messege from CDATA #REQUIRED	to CDATA #REQUIRED	subject CDATA #REQUIRED>
+	]>
+	<Email>
+	<Messege from="Husain" to="Husain" subject="Nope">Hello Dosto</Messege>
+	</Email>
